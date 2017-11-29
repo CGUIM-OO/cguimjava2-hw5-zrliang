@@ -25,13 +25,13 @@
   - 新增 int[] pos_betArray，存放每個玩家在一局下的注(instance field)
   - 新增 Constructor, 輸入參數為 int nDeck，在HW5.java內有實體化Table Class，可參考。
     - 在此Constructor中，請將Deck class實體化，並存入上述新增的Deck變數(instance field)
-  - 新增 請初始化上述新增型別為Player[]變數(instance field)，宣告一個長度是MAXPLAYER 的Player array
+  - 新增 請初始化上述新增型別為Player[]的變數(instance field)，宣告一個長度是MAXPLAYER 的Player array
   - public void set_player(int pos, Player p)
-     - 將Player放到牌桌上 (意即放到 (d) 變數中，為 (d)變數之setter)，pos為牌桌位置，最多四人，p則為Player instance。
+     - 將Player放到牌桌上 (意即放到型別為Player[]的變數(instance field)中，為setter)，pos為牌桌位置，最多MAXPLAYER人，p則為Player instance。
   - public Player[] get_player()
-     - 回傳所有在牌桌上的player，意即回傳 (d)變數，為(d)變數之getter
+     - 回傳所有在牌桌上的player，意即回傳型別為Player[]的變數(instance field)變數，為getter
   - public void set_dealer(Dealer d)
-    - 將Dealer放到牌桌上 (意即將Dealer放到 (e) 變數中，為 (e)變數之setter)。
+    - 將Dealer放到牌桌上 (意即將Dealer放到 型別為Dealer 的變數(instance field) 中，為變數之setter)。
   - public Card get_face_up_card_of_dealer()
     - 回傳dealer打開的那張牌，也就是第二張牌
   - private void ask_each_player_about_bets()
