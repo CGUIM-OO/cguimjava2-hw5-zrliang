@@ -1,6 +1,6 @@
 # 物件導向程式設計HW5說明
 
-1. 點作業[連結]()，並用github將作業Clone到本機端資料夾CGUIMJava2_HW5
+1. 點作業[連結](https://classroom.github.com/a/oW9npdaP)，並用github將作業Clone到本機端資料夾CGUIMJava2_HW5
 2. 新增一個HW5專案
 3. 將HW4中，自己撰寫的Card.java，Deck.java，Player.java複製一份到本機端資料夾CGUIMJava2_HW5，並拖拉到新的HW5專案內（選link）
 4. 將本機端資料夾CGUIMJava2_HW5中的主程式 (HW5.java, Person.java, Dealer.java) ，拖拉到HW5專案內（選link）
