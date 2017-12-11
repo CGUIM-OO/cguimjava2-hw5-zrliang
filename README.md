@@ -58,7 +58,8 @@
     - 要是莊家輸，則賠玩家與下注籌碼相符之籌碼，印出",Get "+下注籌碼數+" Chips, the Chips now is: "+玩家最新籌碼數(提示: get_current_chips())
     - 不輸不贏，印出",chips have no change! The Chips now is: "+玩家最新籌碼數(提示: get_current_chips())
   - public int[] get_palyers_bet()
-    - 新增一method play()如下，使用方法見HW5.java
+
+- 新增一method play()如下，使用方法見HW5.java
 
 ```
 public void play(){
